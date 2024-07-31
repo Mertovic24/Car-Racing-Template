@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+.game-area {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    background-color: #555;
+    overflow: hidden;
+}
+
+.road {
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-color: #777;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.car {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background-color: red;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
